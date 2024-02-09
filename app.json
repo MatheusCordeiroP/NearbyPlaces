@@ -1,19 +1,12 @@
 {
   "expo": {
-    "name": "real-time-location-app",
-    "slug": "real-time-location-app",
-    "version": "1.0.0",
+    "name": "Real Time Location App",
+    "slug": "",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -25,6 +18,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ],
+    "permissions": ["LOCATION", "LOCATION_FOREGROUND", "LOCATION_BACKGROUND"]
   }
 }
