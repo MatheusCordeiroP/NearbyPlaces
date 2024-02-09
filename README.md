@@ -49,4 +49,8 @@ This project isn't very large or complex, it was made in about 4 hours, and it h
 
 - If the location permissions aren't allowed, the application will show you a message asking for you to go to settings and allowing it.
 
+<img src="https://raw.githubusercontent.com/MatheusCordeiroP/NearbyPlaces/main/assets/app_screenshots/image-01.png?raw=true" alt="Location denied." width="320"/>
+
 - If the location permissions are already allowed, the application will show you your position coordinates, and show a text of what places are you nearby.
+
+<img src="https://raw.githubusercontent.com/MatheusCordeiroP/NearbyPlaces/main/assets/app_screenshots/image-02.png?raw=true" alt="Coordinates found a place." width="320"/>
